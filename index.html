@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do CLUBE DO ZAP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<main class="hero">
+
+    <!-- TELA INICIAL -->
+
+    <section class="card home" id="home">
+
+        <div class="badge">FEITO POR:  <strong>MATHEUS</strong> </div>
+
+        <h1>CLUBE DO ZAP QUIZ</h1>
+
+        <p>
+            Teste seus conhecimentos sobre o Clube do Zap e descubra se você é um verdadeiro ZAPPER!
+        </p>
+
+        <button id="start">
+            COMEÇAR
+        </button>
+
+    </section>
+
+
+    <!-- QUIZ -->
+
+    <section class="quiz hidden" id="quiz">
+
+        <div class="top">
+
+            <span id="counter">
+                Questão 1/5
+            </span>
+
+            <span id="timer">
+                15s
+            </span>
+
+        </div>
+
+        <div class="progress">
+
+            <div class="progress-fill"></div>
+
+        </div>
+
+        <h2 id="question">
+
+            Pergunta
+
+        </h2>
+
+        <div class="answers" id="answers">
+
+        </div>
+
+        <button id="next">
+            Próxima →
+        </button>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
