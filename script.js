@@ -10,7 +10,7 @@ const perguntas = [
     },
     {
         pergunta: "Quem foi o ultimo a ser adicionado?",
-        respostas: ["João", "H7", "Luizin", "João Pedro"],
+        respostas: ["João", "H7", "Luizin", "Thulio"],
         correta: 1
     },
     {
@@ -30,7 +30,7 @@ const perguntas = [
     },
     {
         pergunta: "Teste seu instinto!",
-        respostas: ["Ai eu gozo uai", "Batedor do recorde", "Coco xixi bosta mijo.", "peido do ma em frente a casa do matheus"],
+        respostas: ["Ai eu gozo uai", "Batedor do recorde", "Coco xixi bosta mijo.", "Peido do má em frente a casa do matheus"],
         correta: 0
     },
     {
