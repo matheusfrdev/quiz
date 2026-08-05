@@ -29,11 +29,6 @@ const perguntas = [
         correta: 2
     },
     {
-        pergunta: "Teste seu instinto!",
-        respostas: ["Ai eu gozo uai", "Batedor do recorde", "Coco xixi bosta mijo.", "Peido do má em frente a casa do matheus"],
-        correta: 0
-    },
-    {
         pergunta: "De quem era o tadalafila?",
         respostas: ["João", "Eric", "Fabriciano", "Matheus"],
         correta: 1
