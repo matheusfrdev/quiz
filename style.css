@@ -380,3 +380,67 @@ transform:translateX(10px);
     pointer-events:none;
     opacity:.8;
 }
+
+.github-float {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #18181b;
+    color: #fff;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.08);
+
+    z-index: 9999;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.github-float svg {
+    width: 28px;
+    height: 28px;
+    fill: currentColor;
+}
+
+.github-float:hover {
+    transform: translateY(-4px) scale(1.05);
+    background: #242428;
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.35),
+        0 0 25px rgba(255, 255, 255, 0.08);
+}
+
+.github-float:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+    .github-float {
+        width: 52px;
+        height: 52px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .github-float svg {
+        width: 25px;
+        height: 25px;
+    }
+}
